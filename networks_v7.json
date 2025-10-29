@@ -1,0 +1,112 @@
+{
+  "pulsechain": {
+    "name": "PulseChain",
+    "chain_id": 369,
+    "native_token": "PLS",
+    "wrapped_token": "WPLS",
+    "wrapped_address": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+    "explorer": "https://scan.pulsechain.com",
+    "rpcs": [
+      "https://rpc.pulsechain.com",
+      "https://rpc-pulsechain.g4mm4.io",
+      "https://pulsechain.publicnode.com"
+    ],
+    "dexs": {
+      "pulsex_v1": {
+        "router": "0x98bf93ebf5c380C0e6Ae8e192A7e2AE08edAcc02",
+        "factory": "0x1715a3E4A142d8b698131108995174F37aEBA10D",
+        "type": "uniswap_v2"
+      },
+      "pulsex_v2": {
+        "router": "0x165C3410fC91EF562C50559f7d2289fEbed552d9",
+        "factory": "0x29eA7545DEf87022BAdc76323F373EA1e707C523",
+        "type": "uniswap_v2"
+      }
+    },
+    "common_tokens": {
+      "WPLS": "0xA1077a294dDE1B09bB078844df40758a5D0f9a27",
+      "PLS": "native",
+      "HEX": "0x2b591e99afE9f32eAA6214f7B7629768c40Eeb39",
+      "PLSX": "0x95B303987A60C71504D99Aa1b13B4DA07b0790ab",
+      "INC": "0x2fa878Ab3F87CC1C9737Fc071108F904c0B0C95d",
+      "DAI": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "USDC": "0x15D38573d2feeb82e7ad5187aB8c1D52810B1f07",
+      "USDT": "0x0Cb6F5a34ad42ec934882A05265A7d5F59b51A2f",
+      "WBTC": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+      "WETH": "0xB0dA375B2B69a6b13a13a12Ff09B33A6F27e7D0c"
+    }
+  },
+  "ethereum": {
+    "name": "Ethereum",
+    "chain_id": 1,
+    "native_token": "ETH",
+    "wrapped_token": "WETH",
+    "wrapped_address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+    "explorer": "https://etherscan.io",
+    "rpcs": [
+      "https://eth.public-rpc.com",
+      "https://ethereum.publicnode.com"
+    ],
+    "dexs": {
+      "uniswap_v2": {
+        "router": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+        "factory": "0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f",
+        "type": "uniswap_v2"
+      }
+    },
+    "common_tokens": {
+      "WETH": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "ETH": "native",
+      "USDC": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "USDT": "0xdAC17F958D2ee523a2206206994597C13D831ec7"
+    }
+  },
+  "bsc": {
+    "name": "Binance Smart Chain",
+    "chain_id": 56,
+    "native_token": "BNB",
+    "wrapped_token": "WBNB",
+    "wrapped_address": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    "explorer": "https://bscscan.com",
+    "rpcs": [
+      "https://bsc-dataseed.binance.org"
+    ],
+    "dexs": {
+      "pancakeswap_v2": {
+        "router": "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+        "factory": "0xcA143Ce32Fe78f1f7019d7d551a6402fC5350c73",
+        "type": "uniswap_v2"
+      }
+    },
+    "common_tokens": {
+      "WBNB": "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+      "BNB": "native",
+      "USDT": "0x55d398326f99059fF775485246999027B3197955",
+      "USDC": "0x8AC76a51cc950d9822D68b83fE1Ad97B32Cd580d"
+    }
+  },
+  "polygon": {
+    "name": "Polygon",
+    "chain_id": 137,
+    "native_token": "MATIC",
+    "wrapped_token": "WMATIC",
+    "wrapped_address": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+    "explorer": "https://polygonscan.com",
+    "rpcs": [
+      "https://polygon-rpc.com"
+    ],
+    "dexs": {
+      "quickswap": {
+        "router": "0xa5E0829CaCEd8fFDD4De3c43696c57F7D7A678ff",
+        "factory": "0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32",
+        "type": "uniswap_v2"
+      }
+    },
+    "common_tokens": {
+      "WMATIC": "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270",
+      "MATIC": "native",
+      "USDC": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+      "USDT": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F"
+    }
+  }
+}
